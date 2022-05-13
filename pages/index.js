@@ -5,6 +5,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <Layout />
+    <>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.png" />
+      </Head>
+      <Layout />
+    </>
   )
 }
