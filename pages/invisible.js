@@ -26,7 +26,7 @@ export default function BeaconMessage() {
             <div className="justify-end flex w-[40%] justify-center items-center bg-[#d7c9c9] ">
                 <p className='md:text-[9.5vh] text-white'>g</p>
             </div>
-            <div className="bg-[#68687a] lg:flex"></div>
+            <div className="bg-[#68687a] bg-[#686879] lg:flex"></div>
         </Navbar>
 
     )
