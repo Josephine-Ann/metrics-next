@@ -45,12 +45,12 @@ export default function Layout() {
                                 </div>
                             </div>
                             <div className='w-[40%] h-full justify-end flex'>
-                                <p className={"text-[4vw] text-white m-4 text-lg" + ((items.slideIndex === 2) && " hidden ")} onClick={() => plusSlides(+1)}>&#10095;</p>
+                                <p className={"text-[4vw] text-white m-4 text-lg " + ((items.slideIndex === 2) && " hidden ")} onClick={() => plusSlides(+1)}>&#10095;</p>
                             </div>
                         </div>
                     </div>
                     <div className='flex h-[50%] justify-center'>
-                        <div className={'lg:w-[30vw] w-[60vw] bg-[#594343]  justify-center items-center flex-col flex ' + ((items.slideIndex === 1) && (" bg-[#594343] " + styles[["transition"]])) + ((items.slideIndex === 2) && (" bg-[#3e3434] " + styles[["transition-2"]]))}>
+                        <div className={'lg:w-[30vw] w-[60vw] bg-[#594343]  justify-center items-center flex-col flex ' + ((items.slideIndex === 1) && (" bg-[#594343] " + styles[["transition"]])) + " " + ((items.slideIndex === 2) && (" bg-[#3e3434] " + styles[["transition-2"]]))}>
                             <Link href="/peers"><a className={'text-[7.5vh] md:text-[9.5vh] text-white  ' + (items.slideIndex === 2 && "hidden ")}><FontAwesomeIcon icon={faGlobe} /></a></Link>
                             <p className={styles[["font-galaxy"]] + " text-white md:text-2xl " + ((items.slideIndex === 2) && " hidden ")}>Peers</p>
                             <Link href="/connections"><a className={'text-[7.5vh] md:text-[9.5vh] text-white ' + (items.slideIndex === 1 && "hidden ")}><FontAwesomeIcon icon={faLink} /></a></Link>
