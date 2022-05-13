@@ -1,0 +1,57 @@
+.piechart__container {
+    position: absolute;
+    background-color: black;
+    height: 94vh !important;
+}
+
+#piechart__list {
+    position: absolute;
+    color: rgb(184, 169, 169);
+    display: flex;
+    font-size: 2.5vh;
+    flex-direction: column;
+}
+
+// li {
+//     list-style: none;
+// }
+
+@media screen and (max-width: 414px) {
+    #piechart__bigger {
+        display: none;
+    }
+
+    #piechart__medium {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px) and (min-width: 415px) {
+    #piechart__bigger {
+        display: none;
+    }
+
+    #piechart__smaller {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    #piechart__smaller {
+        display: none;
+    }
+
+    #piechart__medium {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 766px) {
+    #piechart__smaller {
+        display: none;
+    }
+
+    #piechart__bigger {
+        display: none;
+    }
+}
