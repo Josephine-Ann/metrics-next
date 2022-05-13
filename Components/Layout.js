@@ -56,7 +56,7 @@ export default function Layout() {
                             <Link href="/connections"><a className={'text-[7.5vh] md:text-[9.5vh] text-white ' + (items.slideIndex === 1 && "hidden ")}><FontAwesomeIcon icon={faLink} /></a></Link>
                             <p className={styles[["font-galaxy"]] + " text-white md:text-2xl  " + ((items.slideIndex === 1) && " hidden ")}>Connections</p>
                         </div>
-                        <div className={'lg:w-[20vw] w-[40vw] justify-center items-center flex flex-col ' + ((items.slideIndex === 1) && (" bg-[#68687a] " + styles[["transition"]])) + ((items.slideIndex === 2) && (" bg-[#686879] " + styles[["transition-2"]]))}>
+                        <div className={'lg:w-[20vw] w-[40vw] justify-center items-center flex flex-col ' + ((items.slideIndex === 1) && (" bg-[#68687a] " + styles[["transition"]])) + " " + ((items.slideIndex === 2) && (" bg-[#686879] " + styles[["transition-2"]]))}>
                             <Link href="/connectionTimePerClient"><a className={'text-[7.5vh] md:text-[9.5vh] text-white ' + (items.slideIndex === 2 && "hidden ")}><FontAwesomeIcon icon={faClock} /></a></Link>
                             <p className={styles[["font-galaxy"]] + " text-white md:text-2xl  " + ((items.slideIndex === 2) && " hidden ")}>Timing</p>
                             <Link href="/disconnections"><a className={'text-[7.5vh] md:text-[9.5vh] text-white  ' + (items.slideIndex === 1 && "hidden ")}><FontAwesomeIcon icon={faBan} /></a></Link>

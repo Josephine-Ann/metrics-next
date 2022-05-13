@@ -24,8 +24,9 @@ export default function BeaconMessage() {
             <div className="w-[60vw] lg:w-[30vw]  bg-[#4a3244]"></div>
             <div className="w-[60%] h-full items-end flex-col bg-[#594343]"></div>
             <div className="justify-end flex w-[40%] justify-center items-center bg-[#d7c9c9] ">
-                <p className='text-white'>g</p>
+                <p className='md:text-[9.5vh] text-white'>g</p>
             </div>
+            <div class="bg-[#68687a] lg:flex"></div>
         </Navbar>
 
     )
