@@ -7,7 +7,7 @@ export default function BeaconMessage() {
     return (
         <Navbar>
             <div className='lg:w-[50vw] lg:h-[91vh] h-[41vh]'>
-                <h1 class="text-[6.5vh] text-white">Yo</h1>
+                <h1 className="text-[6.5vh] text-white">Yo</h1>
             </div>
             <div className='lg:w-[50vw] lg:h-[91vh] h-[50vh]'>
                 <div className='h-[50%] w-[40vw] lg:w-[20vw]  bg-[#d7c9c9]'>
