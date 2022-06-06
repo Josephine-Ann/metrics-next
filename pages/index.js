@@ -7,9 +7,12 @@ export default function Home() {
   return (
     <>
       <Head>
+        <title>Josephine Geoghegan</title>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <Layout />
     </>
   )
 }
+
+
